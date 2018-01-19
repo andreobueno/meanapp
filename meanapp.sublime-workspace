@@ -1,0 +1,711 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Elem",
+				"ElementRef\talias"
+			],
+			[
+				"share",
+				"share_link"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"nro",
+				"nro_sorteio"
+			],
+			[
+				"qtdNum",
+				"qtdNumApostados"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"canva",
+				"canvasId"
+			],
+			[
+				"mr",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"occup",
+				"occup_val"
+			],
+			[
+				"year",
+				"year_of_birth"
+			],
+			[
+				"ye",
+				"year_of_birth"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"marg",
+				"margin-right"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/andreobueno/OneDrive/PhD/Carmelitanos_Data/Carmelitanos/Pedido_Por_Preço.txt",
+			"settings":
+			{
+				"buffer_size": 13734,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/courses.component.ts",
+			"settings":
+			{
+				"buffer_size": 574,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/authors.component.ts",
+			"settings":
+			{
+				"buffer_size": 453,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/author.service.ts",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 377,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nimport {Directive, ElementRef, Renderer} from 'angular2/core'\n\n@Directive({\n\tselector: '[autoGrow]',\n\thost: {\n\t\t'(focus)': 'onFocus()',\n\t\t'(blur)': 'onBlur()'\n\t}\n\n})\n\n\n\nexport class AutoGrowDirective{\n\n\tconstructor(private el: ElementRef, private renderer: Renderer){\n\t}\n\n\tonFocus(){\n\t\tthis.renderer.setElementStyle(this.el.nativeElement, 'width', '200');\n\t}\n\n\tonBlur(){\n\t\tthis.renderer.setElementStyle(this.el.nativeElement, 'width', '120');\n\t}\n\n}",
+			"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/auto-grow.directive.ts",
+			"file_size": 451,
+			"file_write_time": 131606190822478327,
+			"settings":
+			{
+				"buffer_size": 449,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: typ",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andreobueno/Documents/Startup/meanapp"
+	],
+	"file_history":
+	[
+		"/Users/andreobueno/Documents/Startup/angular2-seed/app/course.service.ts",
+		"/Users/andreobueno/Documents/Startup/angular2-seed/app/author.service.ts",
+		"/Users/andreobueno/Documents/Startup/angular2-seed/index.html",
+		"/Users/andreobueno/Documents/Startup/angular2-seed/app/app.component.ts",
+		"/Users/andreobueno/Documents/Startup/angular2-seed/app/courses.component.ts",
+		"/Users/andreobueno/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Applications/MAMP/htdocs/crud/add_user.php",
+		"/Applications/MAMP/htdocs/crud/index.php",
+		"/Users/andreobueno/Box Sync/CanalYoutube/MsgDivulgacao.txt",
+		"/Applications/MAMP/htdocs/crud/style.css",
+		"/Applications/MAMP/htdocs/crud/php_code.php",
+		"/Applications/MAMP/htdocs/mycom/js-login.php",
+		"/Applications/MAMP/htdocs/mycom/index.php",
+		"/Applications/MAMP/htdocs/sk8trib/user.php",
+		"/Applications/MAMP/htdocs/sk8trib/php_parsers/photo_system.php",
+		"/Applications/MAMP/htdocs/sk8trib/photos.php",
+		"/Applications/MAMP/htdocs/sk8trib/index.php",
+		"/Applications/MAMP/htdocs/mycom/logged_user.php",
+		"/Applications/MAMP/htdocs/mycom/index_old.php",
+		"/Users/andreobueno/Documents/python_projects/my-project/hello_world.py",
+		"/Users/andreobueno/OneDrive/PhD/Carmelitanos_Data/Carmelitanos/Pedido_Por_Preço.txt",
+		"/Users/andreobueno/Downloads/test1.cpp",
+		"/Users/andreobueno/OneDrive/Lyrics/hip hops/HipCaralhudos.txt",
+		"/Users/andreobueno/Box Sync/CanalYoutube/piadas.txt",
+		"/Users/andreobueno/Box Sync/CanalYoutube/ideas for videos.txt",
+		"/private/etc/php.ini.default",
+		"/Users/andreobueno/Box Sync/Carmelitanos/Pedido_Por_Preço.txt",
+		"/Applications/MAMP/htdocs/sk8trib/notifications.php",
+		"/Applications/MAMP/htdocs/sk8trib/php_parsers/friend_system.php",
+		"/Applications/MAMP/htdocs/sk8trib/php_includes/image_resize.php",
+		"/Applications/MAMP/htdocs/sk8trib/template_pageTop.php",
+		"/Applications/MAMP/htdocs/sk8trib/php_parsers/block_system.php",
+		"/Applications/MAMP/htdocs/sk8trib/forgot_pass.php",
+		"/Applications/MAMP/htdocs/sk8trib/cron_jobs/once_daily.php",
+		"/Applications/MAMP/htdocs/sk8trib/signup.php",
+		"/Applications/MAMP/htdocs/sk8trib/login.php",
+		"/Applications/MAMP/htdocs/sk8trib/activation.php",
+		"/Applications/MAMP/htdocs/sk8trib/message.php",
+		"/Applications/MAMP/htdocs/sk8trib/logout.php",
+		"/Applications/MAMP/htdocs/sk8trib/php_includes/check_login_status.php",
+		"/Applications/MAMP/htdocs/sk8trib/check_login_status.php",
+		"/Applications/MAMP/htdocs/sk8trib/testeemail.html",
+		"/Applications/MAMP/htdocs/sk8trib/style/style.css",
+		"/Applications/MAMP/htdocs/sk8trib/template_country_list.php",
+		"/Applications/MAMP/htdocs/sk8trib/js/main.js",
+		"/Applications/MAMP/htdocs/sk8trib/js/expand_retract.js",
+		"/Applications/MAMP/htdocs/sk8trib/php_includes/randStrGen.php",
+		"/Applications/MAMP/htdocs/sk8trib/js/fadeEffects.js",
+		"/Applications/MAMP/htdocs/sk8trib/js/autoScrollTo.js",
+		"/Applications/MAMP/htdocs/sk8trib/test.html",
+		"/Applications/MAMP/htdocs/sk8trib/filenotfound.php",
+		"/Applications/MAMP/htdocs/sk8trib/.htaccess",
+		"/Applications/MAMP/htdocs/sk8trib/images/index.php",
+		"/Applications/MAMP/htdocs/sk8trib/php_includes/db_connection.php",
+		"/Applications/MAMP/htdocs/sk8trib/template_pageBottom.php",
+		"/Users/andreobueno/OneDrive/PhD/2017/CAPES-Sanduiche/Vancouver/Passagens.txt",
+		"/Users/andreobueno/Box Sync/CanalYoutube/Vlogs.txt",
+		"/Users/andreobueno/Box Sync/CanalYoutube/vlogchannels.txt",
+		"/Users/andreobueno/OneDrive/firstosn/index.php",
+		"/Users/andreobueno/Documents/PoderosoChatao/SobreCanal.txt",
+		"/Users/andreobueno/Box Sync/Cruciatus/LETRAS/rockzinho/letra.txt",
+		"/Users/andreobueno/OneDrive/PhD/2017/CAPES-Sanduiche/Vancouver/Places to rent.txt",
+		"/Users/andreobueno/OneDrive/PhD/2017/CAPES-Sanduiche/UBC Student number.txt",
+		"/Users/andreobueno/Documents/My Videos/Covers/ListaMusicas.txt",
+		"/Users/andreobueno/Box Sync/Carmelitanos/Parar de postar piadas.txt",
+		"/Users/andreobueno/OneDrive/Resposta Dovair.txt",
+		"/Users/andreobueno/Box Sync/Cruciatus/writing song.txt",
+		"/Users/andreobueno/Dropbox/Docs/lb/sto_v17.cpp",
+		"/Users/andreobueno/OneDrive/respostas.txt",
+		"/Users/andreobueno/Box Sync/resposta_post_miguel_2016.txt",
+		"/Users/andreobueno/Dropbox/Docs/lb/sto_v16.cpp",
+		"/Users/andreobueno/OneDrive/CanalYoutube/Torresmo_Estudar para q.txt",
+		"/Users/andreobueno/OneDrive/peno.txt",
+		"/Users/andreobueno/OneDrive/PhD/journals/ideas for journals.txt",
+		"/Users/andreobueno/OneDrive/CanalYoutube/letra_chatao responde.txt",
+		"/Users/andreobueno/OneDrive/PhD/Qualis_PHD/Presentation/Tips for presentation.txt",
+		"/Users/andreobueno/OneDrive/CanalYoutube/suggestions.txt",
+		"/Users/andreobueno/OneDrive/EAD/2016/PBD/Unidade 2/Estudande.txt",
+		"/Users/andreobueno/OneDrive/CanalYoutube/piadas.txt",
+		"/Users/andreobueno/OneDrive/EAD/2016/PBD/Unidade 1/nota_participou do forum.txt",
+		"/Users/andreobueno/OneDrive/MyLists/database.txt",
+		"/Users/andreobueno/OneDrive/Song Pop songs.txt",
+		"/Users/andreobueno/Documents/PoderosoChatao/melo do se inscreve.txt",
+		"/Users/andreobueno/OneDrive/EAD/2016/PBD/grupos.txt",
+		"/Users/andreobueno/Dropbox/Docs/lb/sto_v15.cpp",
+		"/Users/andreobueno/OneDrive/PhD/Thesis/need to be in the thesis.txt",
+		"/Applications/MAMP/htdocs/tutorial/database.php",
+		"/Applications/MAMP/htdocs/tutorial/index.php",
+		"/Applications/MAMP/htdocs/tutorial/update.php",
+		"/Applications/MAMP/htdocs/tutorial/read.php",
+		"/Applications/MAMP/htdocs/tutorial/create.php",
+		"/Applications/MAMP/htdocs/tutorial/delete.php",
+		"/Users/andreobueno/OneDrive/PhD/2016/IHC - 2016/DCE/Andre_IHC2016_v2.docx",
+		"/Users/andreobueno/OneDrive/piadas.txt",
+		"/Users/andreobueno/OneDrive/PhD/Qualis_PHD/things.txt",
+		"/Users/andreobueno/OneDrive/historicoGamesRanked",
+		"/Users/andreobueno/OneDrive/PhD/2016/Mail_to_Mike_Facebook.txt",
+		"/Users/andreobueno/OneDrive/premios.txt",
+		"/Users/andreobueno/OneDrive/CanalYoutube/ideas for videos.txt",
+		"/Users/andreobueno/OneDrive/Alphabet Aerobics.txt",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Avaliacao/SAC/meu.cpp",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Avaliacao/meu.cpp",
+		"/Users/andreobueno/Documents/UNITY projects/2DTutorialGame/JodoDoDede/counter.php",
+		"/Users/andreobueno/OneDrive/coisas",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Unidade 6/AA6.2/minha.cpp",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Unidade 5/minhaSolucao.cpp",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Unidade 5/clodoaldo.cp",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Unidade 4/gabrielrec.cp",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Unidade 4/recupera_cairo.cp",
+		"/Users/andreobueno/OneDrive/PianoSongsToLearn.txt",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/Unidade1/arcondicionado.cpp",
+		"/Users/andreobueno/OneDrive/Cruciatus/LETRAS/Buzina Assassina/Buzina Assassina.txt",
+		"/Users/andreobueno/OneDrive/EAD/2016/POO1_Reoferta/CalculadoraYago.c",
+		"/Users/andreobueno/OneDrive/BBB_Nao eh programa de cultura",
+		"/Users/andreobueno/OneDrive/PhD/2016/CHI 2016/Viagem San Jose 2016/numero compra passagem",
+		"/Users/andreobueno/OneDrive/Cruciatus/LETRAS/Genaro.txt",
+		"/Users/andreobueno/OneDrive/EAD/2015/PBD - G6 - Julho/Meus grupos.txt",
+		"/Users/andreobueno/OneDrive/report_noLol.txt",
+		"/Users/andreobueno/OneDrive/PhD/2015/CHI 2016 - Doctoral Consortium/List of our project videos.txt",
+		"/Users/andreobueno/OneDrive/PhD/2015/2015_Benfeitoria_Jardim da Amizade.txt",
+		"/Users/andreobueno/OneDrive/URI/1098.cpp",
+		"/Applications/MAMP/htdocs/arduino/index.php",
+		"/Users/andreobueno/OneDrive/EAD/2015/PBD - G6 - Julho/Uni3/Unidade3.sql",
+		"/Users/andreobueno/Dropbox/PhD/Ler Urgentemente.txt",
+		"/Users/andreobueno/Dropbox/Aconchego/PrimeiroSorteio_11072015",
+		"/Users/andreobueno/Dropbox/PhD/Disciplinas/PESCD2/POO/Avaliacoes/SAC/questao3.cpp",
+		"/Users/andreobueno/OneDrive/URI/1060.cpp",
+		"/Users/andreobueno/OneDrive/URI/1036.cpp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"conx",
+			"?>",
+			"<?",
+			"short",
+			"deletar",
+			"dele",
+			"}",
+			"{",
+			"photlleryos",
+			"shape",
+			"shapes",
+			"picbox",
+			"showgallery",
+			"avatard",
+			"conx",
+			":",
+			"conx",
+			"$avatar",
+			"toggle",
+			"tente no",
+			"reject_ok",
+			"rejct_ok",
+			"reject_ok",
+			"friendreqhandler",
+			"exit",
+			"close",
+			"no_exi",
+			"conx",
+			"16",
+			"conx",
+			"ajax.responseText",
+			"ajax.response",
+			"ajax",
+			"coun",
+			"conx",
+			"segundos",
+			"vta",
+			"show",
+			"// ",
+			"navBulletsWrapper",
+			";\n",
+			"\t\n",
+			"occup_val",
+			"login",
+			"container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"register"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/andreobueno/OneDrive/PhD/Carmelitanos_Data/Carmelitanos/Pedido_Por_Preço.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/courses.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/authors.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/author.service.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/andreobueno/Documents/Startup/angular2-seed/app/auto-grow.directive.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "meanapp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Startup/angular2-seed/app/courses.component.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
